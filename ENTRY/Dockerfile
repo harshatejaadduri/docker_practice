@@ -1,5 +1,5 @@
 FROM almalinux:9
-CMD [ "ping", "microsoft.com" ]
+#CMD [ "ping", "facebbok.com" ]
 #CMD ["google.com"]
 #ENTRYPOINT [ "ping" ]
-#ENTRYPOINT [ "ping","facebook.com" ]
+ENTRYPOINT [ "ping","facebook.com" ]
